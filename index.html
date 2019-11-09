@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Deco1016 Website Assignment </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <main>
+
+        <header class="nav-tabs">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <a href="#">Premium</a>
+            <a href="#">Download</a>
+            <a href="#"> <button class="button_l" onclick="document.getElementById('modal-login').style.display='block'">
+                    Login</button></a>
+            <a href="#"> <button class="button_s" onclick="document.getElementById('modal-signup').style.display='block'"> Sign
+                    up</button></a>
+        </header>
+
+        <div class="landing">
+            <a href="form.html"> <button class="button_free"> Get Spotify Free</button></a>
+            <div class="line2"> Music for everyone.</div>
+            <div class="line3">Millions of songs.No credit card needed</div>
+        </div>
+
+
+        <div class="spotify-features">Spotify Features</div>
+
+        <div class="flex-features">
+            <div class="flex-column" data-tilt><img src="images/download.png">
+                <h2>Download music</h2>
+                <p>Listen offline</p>
+            </div>
+            <div class="flex-column1" data-tilt><img src="images/playlist.png">
+                <h2>Custom playlists</h2>
+                <p>Music made for you</p>
+            </div>
+            <div class="flex-column" data-tilt><img src="images/skips.png">
+                <h2>Unlimited skips</h2>
+                <p>Just hit next</p>
+            </div>
+        </div>
+
+        <div class="break">
+            <p>Over 30 million tracks; thousands of curated playlists; Discover Weekly; Spotify Running; Radio;
+                Chromecast, sound system, car, TV, and PlayStation integration; sharing and creating playlists with your
+                friends... All of this is ready for you.</p>
+        </div>
+
+        <div class="pricing"> Get your music</div>
+        <div class="pricing-container">
+            <div class="pricing-table table1">
+                <div class="pricing-header">
+                    <div class="price"> <span>$</span>0/month</div>
+                    <div class="title">Free</div>
+                </div>
+                <ul class="pricing-list">
+                    <li> &#10004; Shuffle play </li>
+                    <!-- every item after the divider will be greyed out -->
+                    <li class='divider'> </li>
+                    <div class="border"></div>
+                    <li> &#10008;Ad free</li>
+                    <div class="border"></div>
+                    <li> &#10008; Unlimited skips </li>
+                    <div class="border"></div>
+                    <li> &#10008; Listen offline </li>
+                    <div class="border"></div>
+                    <li> &#10008; Play any track </li>
+                    <div class="border"></div>
+                    <li> &#10008; High quality audio </li>
+                </ul>
+                <a href="form.html">GET FREE</a>
+            </div>
+
+            <div class="pricing-table table2">
+                <div class="pricing-header">
+                    <div class="price"> <span>$</span>11.99/month</div>
+                    <div class="title">Premium</div>
+                </div>
+                <ul class="pricing-list">
+                    <li> &#10004; Shuffle play </li>
+                    <div class="border"></div>
+                    <li> &#10004; Ad free</li>
+                    <div class="border"></div>
+                    <li> &#10004; Unlimited skips </li>
+                    <div class="border"></div>
+                    <li> &#10004; Listen offline </li>
+                    <div class="border"></div>
+                    <li> &#10004; Play any track </li>
+                    <div class="border"></div>
+                    <li> &#10004; High quality audio </li>
+                </ul>
+                <a href="form.html">GET PREMIUM</a>
+            </div>
+        </div>
+
+
+        <!-- The Modal -->
+        <div id="modal-signup" class="modal">
+            <span onclick="document.getElementById('modal-signup').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+
+            <!-- Modal Content -->
+            <div class="modal-content" >
+                <div class="img-modal">
+                    <img class="img-m" src="images/logo3.png" alt="logo">
+                </div>
+                <hr>
+
+                <div class="modal-container">
+
+                    <div class="fb-btn">
+                        <a href="#"><i class="fa fa-facebook fa-fw"></i> Sign up with Facebook</a>
+                    </div>
+
+                    <div class="google-btn">
+                        <a href="#"> <i class="fa fa-google fa-fw"></i> Sign up with Google+ </a>
+                    </div>
+
+                    <p> or </p>
+
+                    <div class="email-btn">
+                        <a href="form.html">Sign up with email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-login" class="modal">
+            <span onclick="document.getElementById('modal-login').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+
+            <!-- Modal Content -->
+            <div class="modal-content">
+                <div class="img-modal">
+                    <img class="img-m" src="images/logo3.png" alt="logo">
+                </div>
+                <hr>
+
+                <div class="modal-container">
+
+                    <div class="fb-btn">
+                        <a href="#"><i class="fa fa-facebook fa-fw"></i> Login with Facebook</a>
+                    </div>
+
+                    <div class="google-btn">
+                        <a href="#"> <i class="fa fa-google fa-fw"></i> Login with Google+ </a>
+                    </div>
+
+                    <p> or </p>
+
+                    <div class="email-btn">
+                        <a href="#">Login with email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="bottom">
+            <ul>
+                <li>insta</li>
+                <li>facebook</li>
+                <li>pooop</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="Script.js"></script>
+    <!-- TILT JS LIBRARY (adding movement to the static webpage) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.js"> </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+</body>
+
+
+</html>
