@@ -555,6 +555,7 @@ form .form-group select {
 }
 
 
+
 /* form validation styling 
 
 form .messages {
@@ -592,11 +593,11 @@ form .form-group.has-success > select  {
 }
 
 .img-modal .img-m{
-    padding:10px;
+    padding-bottom: 25px;
     margin:0 auto;
     cursor:pointer;
     width:150px;
-    display:flex;
+    display:block;
     justify-content:center;
     align-items:center;
 }
@@ -689,9 +690,10 @@ form .form-group.has-success > select  {
 /* The Close Button */
 .close {
     /* Position it in the top right corner of the modal */
-    position: absolute;
-    right: 50px;
-    top: 50px;
+    display:inline-block;
+    display:flex;
+    justify-content: flex-end;
+    padding-right:15px;
     color: #000;
     font-size: 35px;
     font-weight: bold;
