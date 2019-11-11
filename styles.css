@@ -416,7 +416,6 @@ form {
     padding-top:20px;
     padding-bottom:30px;
 }
-  
 
 form * {
     box-sizing: border-box;
@@ -554,6 +553,147 @@ form .form-group select {
     color: #0066cc;
 }
 
+/* Premium form styling */
+.select-premium{
+    max-width: 550px;
+    margin: 0 auto;
+    padding:50px;
+    padding-top:20px;
+    padding-bottom:0;
+}
+
+.plan{
+    margin:auto;
+    padding-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.select-container{
+    max-width: 550px;
+    padding:20px;
+    padding-left:10px;
+    margin: 0 auto;
+    display:block;
+    justify-content: flex-start;
+
+    background-color:#30c99d;
+    box-shadow: 0 0 15px rgba(66, 66, 66, 0.2);
+    color:#ffffff;
+    border-radius:5px;
+
+}
+
+.select-container h3{
+    font-size:25px;
+}
+
+.select-container p:nth-child(2){
+    font-size:20px;
+}
+
+.select-container p:nth-child(3){
+    font-size:13px;
+}
+
+.select-container a{
+    font-size:13px;
+    color:#ffffff;
+}
+
+
+.cards {
+    padding-bottom:12px;
+    display:inline-block;
+    font-size:15px;
+}
+
+.icon-container{
+    padding-top: 7px;
+    font-size: 30px;
+}
+
+.form-container-P{
+    padding:10px;
+    box-shadow: 0 0 15px rgba(66, 66, 66, 0.2);
+    border-radius: 5px;
+}
+
+.form-inline label {
+    display:block;
+    padding-bottom: 10px;
+}
+
+.form-inline select{
+    margin-left:0;
+    width:212px;
+    border: 2px solid rgb(218, 218, 218);
+}
+
+/* plan selecting styling */
+.planbox{
+    padding-bottom:100px;
+    padding-top:50px;
+}
+
+.plan-container{
+    max-width: 650px;
+    margin: 0 auto;
+    padding:50px;
+    padding-top:50px;
+    padding-bottom:0;
+
+}
+
+.card-container{
+    max-width: 650px;
+    padding:20px;
+    padding-top:0;
+    padding-left:10px;
+    padding-bottom:0;
+    margin: 0 auto;
+    display:block;
+    justify-content: flex-start;
+
+    
+    box-shadow: 0 0 10px rgba(175, 175, 175, 0.2);
+    color:#000000;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius:5px;
+}
+
+.choose-plan a {
+    display:block;
+    margin:auto;
+    padding:20px;
+    font-size: 16px;
+    border:none;
+    color:#000000;
+    max-width:700px;
+    text-decoration: none;
+}
+.choose-plan span{
+    float:right;
+}
+
+.info-plan{
+    padding:20px;
+}
+
+.info-plan h3{
+    font-size:20px;
+    padding:5px;
+}
+
+.info-plan p:nth-child(2){
+    padding:5px;
+    font-size:15px;
+}
+
+.info-plan p:nth-child(3){
+    font-size:13px;
+    padding:5px;
+}
 
 
 /* form validation styling 
@@ -705,3 +845,4 @@ form .form-group.has-success > select  {
     color: red;
     cursor: pointer;
 }
+
